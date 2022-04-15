@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(224, 211, 238);
+}
+
+main{ 
+    background-color: rgb(209, 182, 234);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    height: 55vh;
+    margin: 7%;
+}
+
+.container{
+    width: 55%;
+    margin: 25px auto 0px auto;
+}
+
+.removed{
+    color: rgb(101, 101, 133s);
+}
+
+.removed label{
+    text-decoration: line-through;
+}
+
+ul li {
+    list-style-type: none;
+}
